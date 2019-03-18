@@ -1,10 +1,27 @@
 body {
-  background-color: #ff0000;
+  background-color: #DED8D8;
   color: #0000FF;
 }
 
+body {
+  font-size: 16px;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 2em; /* 32px */
+  line-height: 1.2;
+  line-height: 130%;
+  line-height: 2em;
+  line-height: normal;
+}
+
+p {
+  font-size: 100%; /* 16px */
+}
+
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #040F47;
   float: left;
   position: fixed;
   width: 100%;
@@ -21,6 +38,10 @@ nav {
 
 .medium-pic {
   width: 70%;
+}
+a:link {
+    color:#0070BB;
+    text-decoration: none;
 }
 
 .left, .right {
