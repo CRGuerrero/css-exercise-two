@@ -1,6 +1,6 @@
 body {
   background-color: #DED8D8;
-  color: #0000FF;
+  color: ##000000;
 }
 
 body {
@@ -11,14 +11,17 @@ h1 {
   text-transform: capitalize;
   font-size: 2em; /* 32px */
   line-height: 1.2;
-  line-height: 130%;
+  line-height: 100%;
   line-height: 2em;
   line-height: normal;
 }
 
 p {
   font-size: 100%; /* 16px */
-}
+  line-height: 1.2;
+  line-height: 120%;
+  line-height: 2em;
+  }
 
 nav {
   background-color: #040F47;
@@ -39,9 +42,12 @@ nav {
 .medium-pic {
   width: 70%;
 }
+
 a:link {
-    color:#0070BB;
+    color:#DDD8D8;
     text-decoration: none;
+}
+a:hover { color:#F5670F; } /* mouse over */
 }
 
 .left, .right {
