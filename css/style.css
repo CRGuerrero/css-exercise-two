@@ -10,17 +10,13 @@ body {
 h1 {
   text-transform: capitalize;
   font-size: 2em; /* 32px */
-  line-height: 1.2;
-  line-height: 100%;
   line-height: 2em;
-  line-height: normal;
-}
+  }
 
 p {
   font-size: 100%; /* 16px */
-  line-height: 1.2;
-  line-height: 120%;
-  line-height: 2em;
+  line-height: 1.5;
+  line-height: 150%;
   }
 
 nav {
